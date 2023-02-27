@@ -21,7 +21,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 //
 // Select the network you want to deploy to here:
 //
-const defaultNetwork = "localhost";
+const defaultNetwork = "goerli";
 
 function mnemonic() {
   try {
@@ -75,7 +75,7 @@ module.exports = {
       },
     },
     goerli: {
-      url: "https://goerli.infura.io/v3/62e4d4d8e861447686db464b423bc591", //<---- YOUR INFURA ID! (or it won't work)
+      url: https://goerli.infura.io/v3/3a1f71973f4842af85c4dc3692127444", //<---- YOUR INFURA ID! (or it won't work)
       accounts: {
         mnemonic: mnemonic(),
       },
